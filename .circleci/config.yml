@@ -48,3 +48,4 @@ workflows:
     jobs:
       - 'deps'
       - 'package'
+          requires: ['deps']
