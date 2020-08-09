@@ -47,5 +47,5 @@ workflows:
   check:
     jobs:
       - 'deps'
-      - 'package'
+      - 'package':
           requires: ['deps']
